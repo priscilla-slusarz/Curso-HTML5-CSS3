@@ -11,8 +11,26 @@
     <p>Tente abrir esse site em diversos dispositivos, ou simplesmente aumente e diminua o tamanho do seu navegador. </p>
     
     <picture>
-        
+        <source media="(max-width: 750px)" srcset="imagens/img_p.png" type="image/png"> <!--width trabalha com a distancia horizontal, largura para o lado-->
+        <source media="(max-width: 1050px)" srcset="imagens/img_m.png" type="image/png">
+<img src="imagens/img_g.png" alt="imagem flexível">
     </picture>
-    
+    <h2>Reproduzindo Audio</h2>
+    <p>Vamos reproduzir áudios em HTML</p>
+    <audio src="media/beyondpatrickpatrikios.mp3.mp3" controls ></audio>
+    <!--é possivel colocoar audios no formato MP3, WAW e OGG
+    e colocar uma sequencia com todos os fomatos para que os navegadores reproduzam no formato
+que suportam basta fazer como na sequencia de imagens, onde ele tenta reproduzir mp3 e se nao onsegue entao tenta waw e se nao consegue tenta ogg, e se ainda assim nao for possivel reproduzir é possivel fazer o link de dowload para que o usuario baixe o arquivo em seu pc, isso se dá da seguinte forma:
+
+        <audio preload="metadata">
+            <source src="media/beyondpatrickpatrikios.mp3" type="audio/mp3">
+            <source src="media/beyondpatrickpatrikios.waw" type="audio/mp3">
+            <source src="media/beyondpatrickpatrikios.ogg" type="audio/mp3">        -->
+
+            <p>Infelizmente o seu navegador nao consegue reproduzir audio,
+                <a href="media/beyondpatrickpatrikios.mp3.mp3"> Clique aqui para dowload.</a>
+            </p>
+
+        </audio>
 </body>
 </html>
