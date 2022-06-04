@@ -7,6 +7,25 @@
     <title>Videos com HTML5</title>
 </head>
 <body>
-   <video poster="imagens/pexels-no-name-66997.jpg" src="midia/sunsetmp4.mp4" controls loop autoplay></video>
+    <h1>Inserindo videos hospedados localmente
+    </h1>
+    <p>Este video está hospedado no meu proprio servidor</p>
+   <video controls>
+   <source src="midia/sunsetmp4.mp4" type="video/mp4">
+   <source src="midia/sunsetogv.ogv" type="video/ogv">
+   <source src="midia/sunsetwebm.webm" type="video/webm">
+   
+   <p>Seu navegador não tem compatibilidade para reproduzir este video.
+          </p>
+    
+   </video>
+   <!-- Videos armazenados no meu servidor geram curstos para o proprietario do site, muito trafego de banda, muitos megas, pesssimo, evite ao maximo, bjs-->
+
+   <h1>Inserindo videos do Youtube</h1>
+
+  <!-- Basta clicar em COMPARTILHAR em seguida INCORPORAR, copiar o link e colar dentro do meu codigo HTML
+é possivel usar o vimeo tambem , videos de boa qualddade, videos particulares, mas com mensalidade -->
+
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/TguhBJAvKzs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </body>
 </html>
