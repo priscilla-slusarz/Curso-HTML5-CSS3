@@ -9,6 +9,18 @@ body {
 
 }
 
+.basico{
+   color: #C8F2CF
+}
+
+.intermediario{
+    color: #9AE8E7
+}
+
+.avancado{
+    color: #7495FF
+}
+
 h1 {
     color:#F20544
 }
