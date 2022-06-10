@@ -1,0 +1,16 @@
+@font-face { font-family: 'fabella' ;
+    src: url(Fontes/fabella-flower.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+font-family: 'fabella';
+font-size: 4em;
+}
+
+h1 {font: normal normal 2em fabella
+}
+
+p{
+font: normal normal 20px 'arial', sans-serif
+}
