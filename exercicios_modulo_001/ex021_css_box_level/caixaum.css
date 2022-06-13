@@ -1,0 +1,57 @@
+h1 {
+    background-color: pink;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+a { border-width: 10px;
+    border-style: solid;
+    border-color: blue;
+
+    /*pode substituir por -> border: 10px solid blue; */
+
+    padding-top: 10px;
+    padding-right: 15px;
+    padding-bottom: 11px;
+    padding-left: 16px;
+
+    /*pode substituir por -> padding: 10px 15px 11px 16px; 
+    
+    caso todas sejam iguais basta colocar o valor uma unica vez, 
+    ex: padding: 10px; 
+    
+    e quando voce coloca dois valores significa que o de cima e o de baixo corespondem ao primeio valor e as laterais correspondem ao segundo valor
+    ex: padding: 10px 20px;*/
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    /* short hand: margin: 10px 10px 10px 10px; ou apenas margin: 10px
+    podendo usar o "auto" caso queira que a box fique centralizada no site */
+
+    outline-width: 10px;
+    outline-style: dashed;
+    outline-color: green;
+
+    /* simplificando fica: 10px dashed green; */ 
+
+    /* no outline style o dashed significa uma borda pontilhada, mas existem outros estilos */
+
+    /* posso mudar o display de inline pra block e vice versa. Basta usar display: block; ou display: inline; */
+}
+
