@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf);
+}
+
 body {
     background-color: #7AFF96;
     color: white;    
@@ -11,15 +16,29 @@ body {
 
 }
 
+h1{ font-family: 'idroid', 'sans-serif';
+    font-style: normal;
+    color: #20F86C;
+
+}
+
+h2 {background-image: linear-gradient(to right, #20F86C, #cdf7dc);
+    font-family: 'idroid', 'sans-serif';
+    font-style: normal;
+    color: #107734;
+}
+
 header {
     text-align: center;
     font-size: 20px;
     background-color: #6fe86488;
+    margin: auto;
 }
 
 main {
     color: black;
     text-align: justify;
     background-color: white;
+    margin: auto
 }
 
