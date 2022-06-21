@@ -27,6 +27,7 @@ body {
     font-family: var(--font-padrao);
 }
 
+
 header  { background-image: linear-gradient(to bottom, var(--cor02), var(--cor01));
         min-height: 150px;
         text-align: center;
@@ -78,17 +79,32 @@ main {
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.61);
     border-radius: 10px 10px 0px 0px;
    
-
 }
 
-main h1 {
-    color: var(--cor01);
-    font-family: var(--font-android);
+main strong {
+    color:var(--cor01);
+    font-weight: bold;
+    
 }
 
-main h2 {
-    color: var(--cor01);
+main p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 1.5em;
+}
+
+
+main h1 {background-image: linear-gradient(to right, var(--cor01), transparent);
+    color: white;
     font-family: var(--font-android);
+    text-indent: 8px;
+}
+
+main h2 { background-image: linear-gradient(to right, var(--cor01), transparent);
+    color: white;
+    font-family: var(--font-android);
+    text-indent: 8px;
 }
 
 main img {
@@ -96,9 +112,23 @@ main img {
 }
 
 main img.pequena{
-    width: 50%;
+    max-width: 350px;
     display: block;
     margin: auto;
+}
+
+main a {
+    text-decoration: none;
+    color:white;
+    background-color: var(--cor02);
+    font-weight: bold;
+    padding: 3px 6px;
+    border-radius: 15px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: var(--cor01);
 }
 
 footer {
@@ -106,5 +136,14 @@ footer {
     color: white;
     font-family: var(--font-padrao);
     text-align: center;
+}
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight: bold;
 }
